@@ -1,0 +1,10 @@
+// Canada, many Caribbean and North Atlantic islands, and the United States = whois.arin.net
+// Europa, Oriente Medio y partes de Asia Central = whois.ripe.net
+// Asia y el Pacífico = whois.apnic.net
+// América Latina y el Caribe = whois.lacnic.net
+// África =  whois.afrinic.net
+const arin_country_codes = ["AI", "AQ", "AG", "BS","BB", "BM", "BV", "CA", "KY", "DM", "GD", "GP", "HM", "JM", "MQ", "MS", "PR", "BL", "SH", "KN", "LC", "PM", "VC", "MF", "TC", "US", "UM", "VG", "VI"];
+const ripe_country_codes = ["AX","AL","AD","AM","AT","AZ","BH","BY","BE","HR","CY","CZ","DK","GI","GR","GL","DE","GE","GG","VA","HU","IS","IR","IQ","IE","IL","IT","JE","JO","KZ","IM","KG","LV","LB","LT","LU","LI","KW","YE","GB","UZ","AE","UA","TR","TM","SY","CH","SE","SJ","TJ","ES","SK","SI","RS","SA","SM","RO","RU","PL","PT","QA","PS","MK","ME","MC","MD","MT","BA","NL","NO","OM","EE","FI","FR","BG","FO"];
+const apnic_country_codes = ["VN","WF","VU","TV","TK","TO","TH","TL","TW","LK","SB","SG","WS","PN","PH","PG","PK","PW","MP","NC","NZ","NP","NR","MM","NF","FM","HK","IN","ID","JP","KI","TF","GU","FJ","PF","CK","CC","CN","CX","KH","BN","AU","AF","MY","MV","MO","MH","MN","NU","BD","AS","BT","IO","LA","KR","KP"];
+const lacnic_country_codes = ["UY","VE","GY","HT","HN","MX","GT","PA","PY","PE","NI","SX","TT","SR","GS","AR","AW","BZ","BO","BQ","BR","CL","CO","CR","CU","CW","DO","EC","FK","GF","SV"];
+const afrinic_country_codes = ["DZ","AO","BJ","BW","BF","BI","CM","CV","CF","TD","KM","CG","CD","CI","DJ","EG","QG","ER","SZ","ET","GA","GM","GH","GN","GW","KE","LS","LR","LY","MG","MW","ML","MR","MU","YT","MA","MZ","NA","NE","NG","RE","RW","ST","SN","SC","SL","SO","ZA","SS","SD","TZ","TG","TN","UG","EH","ZM","ZW"];
